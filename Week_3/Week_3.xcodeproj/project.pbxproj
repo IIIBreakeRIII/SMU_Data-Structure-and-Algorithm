@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF965C9428D973BB00DF1FDD /* GroupSequence(No.4).c in Sources */ = {isa = PBXBuildFile; fileRef = DF965C9328D973BB00DF1FDD /* GroupSequence(No.4).c */; };
+		DF9D017128D9772A00C53F77 /* PrintStar(No.5).c in Sources */ = {isa = PBXBuildFile; fileRef = DF9D017028D9772A00C53F77 /* PrintStar(No.5).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		DF965C8F28D9732C00DF1FDD /* MaxNum(No.2).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "MaxNum(No.2).c"; sourceTree = "<group>"; };
 		DF965C9128D9737700DF1FDD /* RecursiveFunction(No.3).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "RecursiveFunction(No.3).c"; sourceTree = "<group>"; };
 		DF965C9328D973BB00DF1FDD /* GroupSequence(No.4).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "GroupSequence(No.4).c"; sourceTree = "<group>"; };
+		DF9D017028D9772A00C53F77 /* PrintStar(No.5).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "PrintStar(No.5).c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				DF965C8F28D9732C00DF1FDD /* MaxNum(No.2).c */,
 				DF965C9128D9737700DF1FDD /* RecursiveFunction(No.3).c */,
 				DF965C9328D973BB00DF1FDD /* GroupSequence(No.4).c */,
+				DF9D017028D9772A00C53F77 /* PrintStar(No.5).c */,
 			);
 			path = Week_3;
 			sourceTree = "<group>";
@@ -127,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF965C9428D973BB00DF1FDD /* GroupSequence(No.4).c in Sources */,
+				DF9D017128D9772A00C53F77 /* PrintStar(No.5).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
