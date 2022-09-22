@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF04293428DC2D200005FDD3 /* ReverseString(No.6).c in Sources */ = {isa = PBXBuildFile; fileRef = DF04293328DC2D200005FDD3 /* ReverseString(No.6).c */; };
+		DF04293828DC44940005FDD3 /* RandomWalk2(No.7).c in Sources */ = {isa = PBXBuildFile; fileRef = DF04293728DC44940005FDD3 /* RandomWalk2(No.7).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		DF04293328DC2D200005FDD3 /* ReverseString(No.6).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ReverseString(No.6).c"; sourceTree = "<group>"; };
+		DF04293528DC333A0005FDD3 /* RandomWalk(No.7).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "RandomWalk(No.7).c"; sourceTree = "<group>"; };
+		DF04293728DC44940005FDD3 /* RandomWalk2(No.7).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "RandomWalk2(No.7).c"; sourceTree = "<group>"; };
 		DF965C8328D972CD00DF1FDD /* Week_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week_3; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF965C8628D972CD00DF1FDD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF965C8D28D972E300DF1FDD /* SumToA(No.1).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SumToA(No.1).c"; sourceTree = "<group>"; };
@@ -70,6 +72,8 @@
 				DF965C9328D973BB00DF1FDD /* GroupSequence(No.4).c */,
 				DF9D017028D9772A00C53F77 /* PrintStar(No.5).c */,
 				DF04293328DC2D200005FDD3 /* ReverseString(No.6).c */,
+				DF04293528DC333A0005FDD3 /* RandomWalk(No.7).c */,
+				DF04293728DC44940005FDD3 /* RandomWalk2(No.7).c */,
 			);
 			path = Week_3;
 			sourceTree = "<group>";
@@ -131,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF04293428DC2D200005FDD3 /* ReverseString(No.6).c in Sources */,
+				DF04293828DC44940005FDD3 /* RandomWalk2(No.7).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
