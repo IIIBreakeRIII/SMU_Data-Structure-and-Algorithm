@@ -7,25 +7,25 @@
 
 #include <stdio.h>
 
-void star(int repeat) {
-    if(repeat <= 0) {
+void star(int max) {
+    if(max <= 0) {
         return;
     }
     printf("*");
-    star(repeat - 1);
+    star(max - 1);
 }
 
-void line(int repeat, int n) {
-    if(n > repeat) {
+void line(int current, int max) {
+    if(current > max) {
         return;
     }
-    star(n);
+    
+    star(current);
     printf("\n");
-    line(n + 1, repeat);
+    line(current + 1, max);
 }
 
-int main(){
+int main() {
     int repeat = 5;
     line(1, repeat);
-    return 0;
 }
