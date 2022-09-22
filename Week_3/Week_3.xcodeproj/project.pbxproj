@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF04293C28DC58140005FDD3 /* Grade(No.9).c in Sources */ = {isa = PBXBuildFile; fileRef = DF04293B28DC58140005FDD3 /* Grade(No.9).c */; };
+		DF04293E28DC5B1A0005FDD3 /* FoodCalorie(No.10).c in Sources */ = {isa = PBXBuildFile; fileRef = DF04293D28DC5B1A0005FDD3 /* FoodCalorie(No.10).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		DF04293728DC44940005FDD3 /* RandomWalk2(No.7).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "RandomWalk2(No.7).c"; sourceTree = "<group>"; };
 		DF04293928DC51510005FDD3 /* GreatestCommonFactor(No.8).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "GreatestCommonFactor(No.8).c"; sourceTree = "<group>"; };
 		DF04293B28DC58140005FDD3 /* Grade(No.9).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Grade(No.9).c"; sourceTree = "<group>"; };
+		DF04293D28DC5B1A0005FDD3 /* FoodCalorie(No.10).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "FoodCalorie(No.10).c"; sourceTree = "<group>"; };
 		DF965C8328D972CD00DF1FDD /* Week_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week_3; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF965C8628D972CD00DF1FDD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF965C8D28D972E300DF1FDD /* SumToA(No.1).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "SumToA(No.1).c"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				DF04293728DC44940005FDD3 /* RandomWalk2(No.7).c */,
 				DF04293928DC51510005FDD3 /* GreatestCommonFactor(No.8).c */,
 				DF04293B28DC58140005FDD3 /* Grade(No.9).c */,
+				DF04293D28DC5B1A0005FDD3 /* FoodCalorie(No.10).c */,
 			);
 			path = Week_3;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF04293C28DC58140005FDD3 /* Grade(No.9).c in Sources */,
+				DF04293E28DC5B1A0005FDD3 /* FoodCalorie(No.10).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
