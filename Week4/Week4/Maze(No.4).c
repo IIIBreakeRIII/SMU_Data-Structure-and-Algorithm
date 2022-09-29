@@ -40,9 +40,12 @@ int FindExit(int x, int y) {
         Maze[x][y] = PATH_COLOR;
         if(FindExit(x - 1, y) || FindExit(x, y + 1) || FindExit(x + 1, y) || FindExit(x, y - 1)) {
             return 1;
+        } else if(FindExit(x - 1, y) == 1 || FindExit(x, y + 1) == 1 || FindExit(x, y - 1) == 1) {
+            return 1;
+        } else {
+            Maze[x][y] = BLOCKED_COLOR;
+            return 1;
         }
-        Maze[x][y] = BLOCKED_COLOR;
-        return 0;
     }
 }
 
