@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		DF04293E28DC5B1A0005FDD3 /* FoodCalorie(No.10).c in Sources */ = {isa = PBXBuildFile; fileRef = DF04293D28DC5B1A0005FDD3 /* FoodCalorie(No.10).c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		DF965C8128D972CD00DF1FDD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -141,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF04293E28DC5B1A0005FDD3 /* FoodCalorie(No.10).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
