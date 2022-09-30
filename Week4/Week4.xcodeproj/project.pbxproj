@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF7A866228E60CDC00B916FA /* Maze(No.4).c in Sources */ = {isa = PBXBuildFile; fileRef = DF7A865B28E5A8DD00B916FA /* Maze(No.4).c */; };
+		DF44D84628E6C74900B31FC4 /* Maze2(Practice).c in Sources */ = {isa = PBXBuildFile; fileRef = DF44D84528E6C74900B31FC4 /* Maze2(Practice).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,9 @@
 /* Begin PBXFileReference section */
 		DF07C1BB28E1355E00D4492C /* Week4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week4; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF07C1BE28E1355E00D4492C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DF44D84528E6C74900B31FC4 /* Maze2(Practice).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Maze2(Practice).c"; sourceTree = "<group>"; };
 		DF7A865B28E5A8DD00B916FA /* Maze(No.4).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Maze(No.4).c"; sourceTree = "<group>"; };
-		DF7A865D28E5E28300B916FA /* MazeByBook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MazeByBook.c; sourceTree = "<group>"; };
+		DF7A865D28E5E28300B916FA /* MazeByBook(No.4).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "MazeByBook(No.4).c"; sourceTree = "<group>"; };
 		DFC0D55228E3DED800E36E2E /* ReverseString(No.3).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ReverseString(No.3).c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,7 +64,8 @@
 				DF07C1BE28E1355E00D4492C /* main.c */,
 				DFC0D55228E3DED800E36E2E /* ReverseString(No.3).c */,
 				DF7A865B28E5A8DD00B916FA /* Maze(No.4).c */,
-				DF7A865D28E5E28300B916FA /* MazeByBook.c */,
+				DF7A865D28E5E28300B916FA /* MazeByBook(No.4).c */,
+				DF44D84528E6C74900B31FC4 /* Maze2(Practice).c */,
 			);
 			path = Week4;
 			sourceTree = "<group>";
@@ -125,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7A866228E60CDC00B916FA /* Maze(No.4).c in Sources */,
+				DF44D84628E6C74900B31FC4 /* Maze2(Practice).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
