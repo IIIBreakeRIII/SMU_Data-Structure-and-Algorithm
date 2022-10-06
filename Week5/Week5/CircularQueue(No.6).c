@@ -1,5 +1,5 @@
 //
-//  CircularQueue(No.3)c
+//  CircularQueue(No.6)c
 //  Week5
 //
 //  Created by 현소류 on 2022/10/06.
