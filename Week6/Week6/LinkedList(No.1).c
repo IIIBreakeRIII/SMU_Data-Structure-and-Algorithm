@@ -31,6 +31,8 @@ ListNode * InsertFirst(ListNode * head, element value) {
 void PrintList(ListNode * head) {
     for(ListNode * p = head; p != NULL; p = p -> link) {
         printf("%s \n", p -> data.name);
+    }
+}
 
 int main(void) {
     ListNode * head = NULL;
