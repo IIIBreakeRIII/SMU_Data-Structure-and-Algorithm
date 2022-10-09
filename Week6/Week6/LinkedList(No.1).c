@@ -31,21 +31,6 @@ ListNode * InsertFirst(ListNode * head, element value) {
 void PrintList(ListNode * head) {
     for(ListNode * p = head; p != NULL; p = p -> link) {
         printf("%s \n", p -> data.name);
-//        printf("NULL \n");
-    }
-}
-
-//ListNode * DeleteFirst(ListNode * head) {
-//    if(head == NULL) {
-//        printf("Last Node \n");
-//        return NULL;
-//    }
-//    ListNode * p = head;
-//    head = p -> link;
-//    printf("\n free(%s) \n", p -> data.name);
-//    free(p);
-//    return head;
-//}
 
 int main(void) {
     ListNode * head = NULL;
@@ -60,11 +45,5 @@ int main(void) {
         PrintList(head);
         printf("\n");
     }
-    
-//    while(head != NULL) {
-//        head = DeleteFirst(head);
-//        PrintList(head);
-//    }
-    
     return 0;
 }

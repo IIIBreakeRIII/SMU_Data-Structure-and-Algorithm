@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF28BD6C28F1AA8E00DC1B87 /* LinkedList(No.1).c in Sources */ = {isa = PBXBuildFile; fileRef = DF28BD6B28F1AA8E00DC1B87 /* LinkedList(No.1).c */; };
+		DF11DFCD28F3095100374B13 /* LinkedListMax(No.2).c in Sources */ = {isa = PBXBuildFile; fileRef = DF11DFCC28F3095100374B13 /* LinkedListMax(No.2).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF11DFCC28F3095100374B13 /* LinkedListMax(No.2).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "LinkedListMax(No.2).c"; sourceTree = "<group>"; };
 		DF28BD6128F1AA7400DC1B87 /* Week6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week6; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF28BD6428F1AA7400DC1B87 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF28BD6B28F1AA8E00DC1B87 /* LinkedList(No.1).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "LinkedList(No.1).c"; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 			children = (
 				DF28BD6428F1AA7400DC1B87 /* main.c */,
 				DF28BD6B28F1AA8E00DC1B87 /* LinkedList(No.1).c */,
+				DF11DFCC28F3095100374B13 /* LinkedListMax(No.2).c */,
 			);
 			path = Week6;
 			sourceTree = "<group>";
@@ -121,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF28BD6C28F1AA8E00DC1B87 /* LinkedList(No.1).c in Sources */,
+				DF11DFCD28F3095100374B13 /* LinkedListMax(No.2).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
