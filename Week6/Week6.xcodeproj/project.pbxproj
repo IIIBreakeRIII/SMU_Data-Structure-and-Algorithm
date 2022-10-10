@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF11DFCD28F3095100374B13 /* LinkedListMax(No.2).c in Sources */ = {isa = PBXBuildFile; fileRef = DF11DFCC28F3095100374B13 /* LinkedListMax(No.2).c */; };
+		DF33EA6828F3FF730068D4C0 /* LinkedListSum(No.3).c in Sources */ = {isa = PBXBuildFile; fileRef = DF33EA6728F3FF730068D4C0 /* LinkedListSum(No.3).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		DF28BD6128F1AA7400DC1B87 /* Week6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week6; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF28BD6428F1AA7400DC1B87 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF28BD6B28F1AA8E00DC1B87 /* LinkedList(No.1).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "LinkedList(No.1).c"; sourceTree = "<group>"; };
+		DF33EA6728F3FF730068D4C0 /* LinkedListSum(No.3).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "LinkedListSum(No.3).c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				DF28BD6428F1AA7400DC1B87 /* main.c */,
 				DF28BD6B28F1AA8E00DC1B87 /* LinkedList(No.1).c */,
 				DF11DFCC28F3095100374B13 /* LinkedListMax(No.2).c */,
+				DF33EA6728F3FF730068D4C0 /* LinkedListSum(No.3).c */,
 			);
 			path = Week6;
 			sourceTree = "<group>";
@@ -123,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF11DFCD28F3095100374B13 /* LinkedListMax(No.2).c in Sources */,
+				DF33EA6828F3FF730068D4C0 /* LinkedListSum(No.3).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
