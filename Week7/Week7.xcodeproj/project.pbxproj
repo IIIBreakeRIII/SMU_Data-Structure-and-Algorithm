@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF0067FF28FCE6AF001540AA /* MP3Player(No.1).c in Sources */ = {isa = PBXBuildFile; fileRef = DF0067FE28FCE6AF001540AA /* MP3Player(No.1).c */; };
+		DF00680128FCF026001540AA /* LinkedListReverseSort(No.2).c in Sources */ = {isa = PBXBuildFile; fileRef = DF00680028FCF026001540AA /* LinkedListReverseSort(No.2).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		DF0067F428FCE57F001540AA /* Week7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week7; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0067F728FCE57F001540AA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF0067FE28FCE6AF001540AA /* MP3Player(No.1).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "MP3Player(No.1).c"; sourceTree = "<group>"; };
+		DF00680028FCF026001540AA /* LinkedListReverseSort(No.2).c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "LinkedListReverseSort(No.2).c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				DF0067F728FCE57F001540AA /* main.c */,
 				DF0067FE28FCE6AF001540AA /* MP3Player(No.1).c */,
+				DF00680028FCF026001540AA /* LinkedListReverseSort(No.2).c */,
 			);
 			path = Week7;
 			sourceTree = "<group>";
@@ -121,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF0067FF28FCE6AF001540AA /* MP3Player(No.1).c in Sources */,
+				DF00680128FCF026001540AA /* LinkedListReverseSort(No.2).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
