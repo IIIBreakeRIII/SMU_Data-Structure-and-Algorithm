@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DF38495429058324002C39C0 /* Ch2-11.c in Sources */ = {isa = PBXBuildFile; fileRef = DF38495329058324002C39C0 /* Ch2-11.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		DF38493D290579BF002C39C0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,6 +28,8 @@
 		DF38494929057B49002C39C0 /* Ch2-7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Ch2-7.c"; sourceTree = "<group>"; };
 		DF38494B29057BD3002C39C0 /* Ch2-8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Ch2-8.c"; sourceTree = "<group>"; };
 		DF38494F29057F7A002C39C0 /* Ch2-9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Ch2-9.c"; sourceTree = "<group>"; };
+		DF3849512905801F002C39C0 /* Ch2-10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Ch2-10.c"; sourceTree = "<group>"; };
+		DF38495329058324002C39C0 /* Ch2-11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Ch2-11.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 				DF38494929057B49002C39C0 /* Ch2-7.c */,
 				DF38494B29057BD3002C39C0 /* Ch2-8.c */,
 				DF38494F29057F7A002C39C0 /* Ch2-9.c */,
+				DF3849512905801F002C39C0 /* Ch2-10.c */,
+				DF38495329058324002C39C0 /* Ch2-11.c */,
 			);
 			path = MidTermExamPractice;
 			sourceTree = "<group>";
@@ -121,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF38495429058324002C39C0 /* Ch2-11.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
