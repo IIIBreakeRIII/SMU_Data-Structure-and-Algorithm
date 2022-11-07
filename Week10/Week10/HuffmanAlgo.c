@@ -126,4 +126,39 @@ void MakeCodesArray(TreeNodePTR T, int codes[], int idx) {
     }
 }
 
+TreeNodePTR HuffmanTree;
+void MakeHuffmanHeap(int freq[], char CHList[], int n) {
+    int i;
+    TreeNodePTR HNode;
+    HeapTypePTR h;
+    element e, e1, e2;
+    int codes[100];
+    
+    h = HeapInit();
+    
+    for(i = 0; i < n; i++) {
+        HNode = MakeHTree(NULL, NULL);
+        
+        e.ch = HNode -> ch = CHList[i];
+        e.key = HNode -> weight = freq[i];
+        e.HiddenTree = HNode;
+        
+        InsertMinHeap(h, e);
+    }
+    
+    for(i = 1; i < n; i++) {
+        e1 = DeleteMinHeap(h);
+        e2 = DeleteMinHeap(h);
+        
+        HNode = MakeHTree(e1.HiddenTree, e2.HiddenTree);
+        
+        e.key = HNode -> weight = e1.key + e2.key;
+        e.HiddenTree = HNode;
+        
+        InsertMinHeap(h, e);
+    }
+    e = DeleteMinHeap(h);
+    HuffmanTree = e.HiddenTree;
+    MakeCodesArray(HuffmanTree, codes, 0);
+}
 
