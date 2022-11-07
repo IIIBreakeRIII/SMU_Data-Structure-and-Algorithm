@@ -75,3 +75,55 @@ element DeleteMinHeap(HeapTypePTR h) {
     return item;
 }
 
+TreeNodePTR MakeHTree(TreeNodePTR left, TreeNodePTR right) {
+    TreeNodePTR node = (TreeNodePTR)malloc(sizeof(TreeNode));
+    node -> left = left;
+    node -> right = right;
+    return node;
+}
+
+int IsLeaf(TreeNodePTR T) {
+    return !(T -> left) && !(T -> right);
+}
+
+typedef struct {
+    char ch;
+    int freq;
+    int * codes;
+    int CodesStop;
+} PrintArray;
+PrintArray * PArray;
+
+void PrintCodesArray(int codes[], int stop, int freq, char ch) {
+    static int i = 0;
+    printf("[%d] %c(Frequency : %d, Stop : %d) : ", i, ch, freq, stop);
+    for(int j = 0; j < stop; j++) {
+        printf("%d", codes[j]);
+    }
+    printf("\n");
+    
+    PArray[i].ch = ch;
+    PArray[i].freq = freq;
+    PArray[i].CodesStop = stop;
+    
+    for(int k = 0; k < PArray[i].CodesStop; k++) {
+        (PArray[i].codes)[k] = codes[k];
+    }
+    i++;
+}
+
+void MakeCodesArray(TreeNodePTR T, int codes[], int idx) {
+    if (T -> left) {
+        codes[idx] = 1;
+        MakeCodesArray(T -> left, codes, idx + 1);
+    }
+    if(T -> right) {
+        codes[idx] = 0;
+        MakeCodesArray(T -> right, codes, idx + 1);
+    }
+    if(IsLeaf(T)) {
+        PrintCodesArray(codes, idx, T -> weight, T -> ch);
+    }
+}
+
+
