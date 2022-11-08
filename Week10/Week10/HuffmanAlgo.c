@@ -159,6 +159,102 @@ void MakeHuffmanHeap(int freq[], char CHList[], int n) {
     }
     e = DeleteMinHeap(h);
     HuffmanTree = e.HiddenTree;
+    
     MakeCodesArray(HuffmanTree, codes, 0);
 }
 
+int GetI;
+char GetSymbol(char string[]) {
+    return string[GetI++];
+}
+
+char * string = NULL;
+int InputProcessing(char * CHList, int * freq) {
+    int alphabet = 26;
+    char * AlphabetList = (char *)malloc(sizeof(char) * alphabet);
+    int * AlphabetFreq = (int *)calloc(alphabet, sizeof(int));
+    for(int i = 0; i < alphabet; i++) {
+        AlphabetList[i] = 'a' + i;
+    }
+    
+    string = (char *)malloc(sizeof(char) * MAX);
+    gets(string);
+    
+    char tmp = 0;
+    int idx = 0;
+    GetI = 0;
+    while((tmp = GetSymbol(string)) != 0) {
+        if('a' <= tmp && tmp <= 'z') {
+            idx = tmp - 'a';
+            AlphabetFreq[idx]++;
+        }
+    }
+    
+    int num = 0;
+    for(int i = 0; i < alphabet; i++) {
+        if(AlphabetFreq[i] > 0) {
+            CHList[num] = AlphabetList[i];
+            freq[num++] = AlphabetFreq[i];
+        }
+    }
+    for(int i = 0; i < num; i++) {
+        printf("%c:%d\n", CHList[i], freq[i]);
+    }
+    
+    return num;
+}
+
+int main(void) {
+    char * CHList = (char *)malloc(sizeof(char) * MAX);
+    int * freq = (int *)malloc(sizeof(int) * MAX);
+    int num = InputProcessing(CHList, freq);
+    PArray = (PrintArray * )malloc(sizeof(PrintArray) * MAX);
+    
+    for (int i = 0; i < num; i++) {
+        PArray[i].codes = (int *)malloc(sizeof(PrintArray) * MAX);
+    }
+    
+    MakeHuffmanHeap(freq, CHList, num);
+    
+    int tmp;
+    GetI = 0;
+    char * HuffmanEncode = (char *)malloc(sizeof(char));
+    int HuffmanEncodeSize = 0;
+    while ((tmp = GetSymbol(string)) != 0) {
+        for (int i = 0; i < num; i++) {
+            if (PArray[i].ch == tmp) {
+                for (int k = 0; k < PArray[i].CodesStop; k++) {
+                    HuffmanEncode[HuffmanEncodeSize++] = (PArray[i].codes)[k];
+                    realloc(HuffmanEncode, sizeof(char) + HuffmanEncodeSize);
+                }
+                break;
+            }
+        }
+    }
+
+    printf("\n");
+    for (int i = 0; i < HuffmanEncodeSize; i++)
+        printf("%d", HuffmanEncode[i]);
+    printf("\n");
+
+    TreeNode * temp = HuffmanTree;
+    for (int i = 0; i < HuffmanEncodeSize; i++) {
+        if (HuffmanEncode[i] == 1) {
+            temp = temp -> left;
+            if ((temp -> left == NULL) && (temp -> right == NULL)) {
+                printf("%c",temp -> ch);
+                temp = HuffmanTree;
+            }
+        }
+        else {
+            temp = temp -> right;
+            if ((temp -> left == NULL) && (temp -> right == NULL)) {
+                printf("%c", temp -> ch);
+                temp = HuffmanTree;
+            }
+        }
+    }
+    printf("\n");
+    
+    return 0;
+}
