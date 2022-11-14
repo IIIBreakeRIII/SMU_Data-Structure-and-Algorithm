@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF1C0F74292218C100512452 /* PrimFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = DF1C0F73292218C100512452 /* PrimFunction.c */; };
+		DF1C0F76292226F500512452 /* Dijkstra.c in Sources */ = {isa = PBXBuildFile; fileRef = DF1C0F75292226F500512452 /* Dijkstra.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 		DF1C0F692922189000512452 /* Week11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week11; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1C0F6C2922189000512452 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DF1C0F73292218C100512452 /* PrimFunction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PrimFunction.c; sourceTree = "<group>"; };
+		DF1C0F75292226F500512452 /* Dijkstra.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Dijkstra.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				DF1C0F6C2922189000512452 /* main.c */,
 				DF1C0F73292218C100512452 /* PrimFunction.c */,
+				DF1C0F75292226F500512452 /* Dijkstra.c */,
 			);
 			path = Week11;
 			sourceTree = "<group>";
@@ -121,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1C0F74292218C100512452 /* PrimFunction.c in Sources */,
+				DF1C0F76292226F500512452 /* Dijkstra.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
