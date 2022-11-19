@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF47D50D292348F300FBC348 /* Floyd.c in Sources */ = {isa = PBXBuildFile; fileRef = DF47D50C292348F300FBC348 /* Floyd.c */; };
+		DF71A2792923984F0098B0D3 /* DijkstraExample.c in Sources */ = {isa = PBXBuildFile; fileRef = DF1C0F75292226F500512452 /* DijkstraExample.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF47D50D292348F300FBC348 /* Floyd.c in Sources */,
+				DF71A2792923984F0098B0D3 /* DijkstraExample.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
