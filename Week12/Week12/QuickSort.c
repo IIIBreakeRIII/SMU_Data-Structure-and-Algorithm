@@ -46,6 +46,37 @@ int partition(int list[], int left, int right) {
         } while (high >= left && list[high] > pivot);
         if(low < high) {
             PrintSit(list, high, low);
+            SWAP(list[low], list[high]);
         }
+    } while (low < high);
+    
+    SWAP(list[left], list[high]);
+    return high;
+}
+
+void QuickSort(int list[], int left, int right) {
+    if(left < right) {
+        int q = partition(list, left, right);
+        QuickSort(list, left, q - 1);
+        QuickSort(list, q + 1, right);
     }
+}
+
+int main(void) {
+    int * ar;
+    printf("Amount of List : ");
+    scanf("%d", &n);
+    
+    printf("Enter the Contents of List : ");
+    ar = (int * )malloc(sizeof(int) * n);
+ 
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &ar[i]);
+    }
+ 
+    QuickSort(ar, 0, n - 1);
+ 
+    free(ar);
+    return 0;
+    
 }
