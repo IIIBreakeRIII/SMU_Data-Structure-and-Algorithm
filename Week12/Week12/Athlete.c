@@ -67,5 +67,5 @@ int main() {
         printf("%d ", HomeTeam[i]);
     }
     printf("\n");
-    printf("Average Score Change : %f -> %f \n", AverageBefore, AverageAfter);
+    printf("Average Score Change : %.1f -> %.1f \n", AverageBefore, AverageAfter);
 }
