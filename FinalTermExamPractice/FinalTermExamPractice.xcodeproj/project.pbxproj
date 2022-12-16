@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF1892BB294CA97400B3EBF3 /* HeapPriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = DF1892BA294CA97400B3EBF3 /* HeapPriorityQueue.c */; };
+		DF1892BD294CC82700B3EBF3 /* HuffmanCode.c in Sources */ = {isa = PBXBuildFile; fileRef = DF1892BC294CC82700B3EBF3 /* HuffmanCode.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,7 @@
 		DF1892B4294B931700B3EBF3 /* LevelCircuitProgram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LevelCircuitProgram.c; sourceTree = "<group>"; };
 		DF1892B6294C5F1A00B3EBF3 /* MathTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MathTree.c; sourceTree = "<group>"; };
 		DF1892BA294CA97400B3EBF3 /* HeapPriorityQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapPriorityQueue.c; sourceTree = "<group>"; };
+		DF1892BC294CC82700B3EBF3 /* HuffmanCode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HuffmanCode.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 				DF1892B4294B931700B3EBF3 /* LevelCircuitProgram.c */,
 				DF1892B6294C5F1A00B3EBF3 /* MathTree.c */,
 				DF1892BA294CA97400B3EBF3 /* HeapPriorityQueue.c */,
+				DF1892BC294CC82700B3EBF3 /* HuffmanCode.c */,
 			);
 			path = FinalTermExamPractice;
 			sourceTree = "<group>";
@@ -129,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1892BB294CA97400B3EBF3 /* HeapPriorityQueue.c in Sources */,
+				DF1892BD294CC82700B3EBF3 /* HuffmanCode.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
